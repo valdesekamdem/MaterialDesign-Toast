@@ -1,4 +1,4 @@
-package com.valdesekamdem.android.mdtoast;
+package com.valdesekamdem.library.mdtoast;
 
 import org.junit.Test;
 

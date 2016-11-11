@@ -1,9 +1,8 @@
-package com.valdesekamdem.android.mdtoast;
+package com.valdesekamdem.library.mdtoast;
 
 import android.content.Context;
 import android.os.Build;
 import android.support.v4.content.ContextCompat;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;

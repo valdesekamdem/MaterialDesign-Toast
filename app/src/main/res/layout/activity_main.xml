@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="8dp"
     android:orientation="horizontal"
-    tools:context="com.valdesekamdem.android.mdtoastsample.MainActivity">
+    tools:context="com.valdesekamdem.library.mdtoastsample.MainActivity">
 
     <Button
         android:layout_width="wrap_content"

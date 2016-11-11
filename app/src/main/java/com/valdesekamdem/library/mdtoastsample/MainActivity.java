@@ -1,10 +1,10 @@
-package com.valdesekamdem.android.mdtoastsample;
+package com.valdesekamdem.library.mdtoastsample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.valdesekamdem.android.mdtoast.MDToast;
+import com.valdesekamdem.library.mdtoast.MDToast;
 
 public class MainActivity extends AppCompatActivity {
 

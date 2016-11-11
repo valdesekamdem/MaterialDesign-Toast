@@ -1,4 +1,4 @@
-package com.valdesekamdem.android.mdtoast;
+package com.valdesekamdem.library.mdtoast;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
