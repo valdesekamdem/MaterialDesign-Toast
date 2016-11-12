@@ -15,17 +15,30 @@
     
     ![Error Toast](https://raw.githubusercontent.com/valdesekamdem/MaterialDesign-Toast/master/images/error.png)
 
+
 ## Demo
-You can test it [Here](https://appetize.io/app/qvz4eg2e5j1debg99gpdzt6p74)
+You can check the demo [Here](https://appetize.io/app/qvz4eg2e5j1debg99gpdzt6p74)
 
 ## Getting Started
-Add Gradle dependency in the `build.gradle` file of your application module (**app** in the most cases)  :
+Add Gradle dependency in the `build.gradle` file of your application module (**app** in the most cases) :
 
 ```java
 dependencies {
     compile 'com.valdesekamdem.library:md-toast:0.8.0'
 }
 ```
+
+Make sure to specify the maven repository, where the project is hosted. Do this in `build.gradle` file of the parent project :
+
+```java
+repositories {
+    ...
+    maven {
+        url 'https://dl.bintray.com/valdesekamdem/maven/'
+    }
+}
+```
+
 Now you can use **MDToast** as you wish just by calling it as follow : 
 ```java
 MDToast.makeText(Context context, String message, int duration, int type);
