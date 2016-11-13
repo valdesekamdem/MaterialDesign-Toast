@@ -28,17 +28,6 @@ dependencies {
 }
 ```
 
-Make sure to specify the maven repository, where the project is hosted. Do this in `build.gradle` file of the parent project :
-
-```java
-repositories {
-    ...
-    maven {
-        url 'https://dl.bintray.com/valdesekamdem/maven/'
-    }
-}
-```
-
 Now you can use **MDToast** as you wish just by calling it as follow : 
 ```java
 MDToast.makeText(Context context, String message, int duration, int type);
