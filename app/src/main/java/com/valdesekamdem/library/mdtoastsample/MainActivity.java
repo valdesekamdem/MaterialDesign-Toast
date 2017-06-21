@@ -15,18 +15,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showInfoToast(View view) {
-        MDToast.makeText(this, "This is an INFO Toast", MDToast.LENGTH_LONG);
+        MDToast mdToast = MDToast.makeText(this, "This is an INFO Toast");
+        mdToast.show();
     }
 
     public void showSuccessToast(View view) {
-        MDToast.makeText(this, "This is a SUCCESS Toast", MDToast.LENGTH_LONG, MDToast.TYPE_SUCCESS);
+        MDToast.makeText(this, "This is a SUCCESS Toast", MDToast.LENGTH_SHORT, MDToast.TYPE_SUCCESS).show();
     }
 
     public void showWarningToast(View view) {
-        MDToast.makeText(this, "This is a WARNING Toast", MDToast.LENGTH_LONG, MDToast.TYPE_WARNING);
+        MDToast.makeText(this, "This is a WARNING Toast", MDToast.LENGTH_SHORT, MDToast.TYPE_WARNING).show();
     }
 
     public void showErrorToast(View view) {
-        MDToast.makeText(this, "This is an ERROR Toast", MDToast.LENGTH_LONG, MDToast.TYPE_ERROR);
+        MDToast.makeText(this, "This is an ERROR Toast", MDToast.LENGTH_SHORT, MDToast.TYPE_ERROR).show();
     }
 }

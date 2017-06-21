@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MD Toast</string>
+    <string name="default_message">Message here</string>
 </resources>

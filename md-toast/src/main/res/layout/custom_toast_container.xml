@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/custom_toast_info_background"
+    android:padding="8dp">
 
-    <LinearLayout
-        android:id="@+id/custom_toast_container"
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/custom_toast_success_background"
-        android:padding="8dp"
-        android:layout_margin="16dp">
-        <ImageView
-            android:id="@+id/icon"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:contentDescription="@null"
-            android:src="@drawable/ic_check_circle_white_18dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_gravity="center"/>
-        <TextView
-            android:id="@+id/text"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="asadssadsa sd ads sdsa sad sad sd sad sa"
-            android:textColor="@color/colorWhite"
-            android:layout_marginRight="8dp"/>
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="24dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_check_circle_white_24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center"/>
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/colorWhite"
+        android:text="@string/default_message"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"/>
+
+</LinearLayout>
