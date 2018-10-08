@@ -30,4 +30,20 @@ public class MainActivity extends AppCompatActivity {
     public void showErrorToast(View view) {
         MDToast.makeText(this, "This is an ERROR Toast", MDToast.LENGTH_SHORT, MDToast.TYPE_ERROR).show();
     }
+    
+    
+      //Snackbar is a new Material Design Toast
+    
+    public void snackbar(View view)
+    {
+        Snackbar.make(view,"hello world!!",Snackbar.LENGTH_LONG)
+            .setAction("close it",new View.onClickListener()
+                         {
+                             public void onClick(View v)
+                                 {
+                                    //go to new Activity
+                                  }
+                         }
+                       
+        } 
 }
