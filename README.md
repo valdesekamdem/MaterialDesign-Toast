@@ -1,3 +1,6 @@
+[![](https://jitpack.io/v/badboy-tian/MaterialDesign-Toast.svg)](https://jitpack.io/#badboy-tian/MaterialDesign-Toast)
+
+
 # Material Design Toast
 **MD-Toast** is a simple and light Open Source Android library which, proposes Toasts (*popup*) with Material Design render.
 
@@ -22,10 +25,18 @@ You can check the demo [Here](https://appetize.io/app/qvz4eg2e5j1debg99gpdzt6p74
 ## Getting Started
 Add Gradle dependency in the `build.gradle` file of your application module (**app** in the most cases) :
 
-```java
-dependencies {
-    compile 'com.valdesekamdem.library:md-toast:0.9.0'
-}
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```
+implementation 'com.github.badboy-tian:MaterialDesign-Toast:Tag'
+
 ```
 
 Now you can use **MDToast** as you wish by following the bellow code:

@@ -5,14 +5,15 @@ import android.app.Application;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.StringRes;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.DrawableRes;
+import androidx.annotation.StringRes;
+import androidx.core.content.ContextCompat;
 
 /**
  * Material Design Toast class
